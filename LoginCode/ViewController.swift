@@ -131,7 +131,7 @@ final class ViewController: UIViewController {
     private let textViewHeight: CGFloat = 48
     
     
-    // 오토레리아웃 향후 변경을 위한 변수(애니메이션)
+    // 오토레이아웃 향후 변경을 위한 변수(애니메이션)
     lazy var emailInfoLabelCenterYConstraint = emailInfoLabel.centerYAnchor.constraint(equalTo: emailTextFieldView.centerYAnchor)
     
     lazy var passwordInfoLabelCenterYConstraint = passwordInfoLabel.centerYAnchor.constraint(equalTo: passwordTextFieldView.centerYAnchor)
